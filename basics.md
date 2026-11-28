@@ -1,4 +1,19 @@
 
+### The Millenial Prize Problems, and the mass gap problem
+
+- David Hilbert 1900: 23 problems to guide mathematical research
+    - several physics related
+    - not very precise question, rather orientation
+- Clay Mathemticcs Institute: 7 open problems, each $1M prize for the solution
+    - Poincaré conjecture: 2002-3 G. Perelman
+    - Riemann hypothesis: proved recently (Levent Alpöge) using Claude
+- two physics-related problems:
+    - Navier-Stokes existence and smoothness: partially solved by OpenAI
+    - Yang-Mills mass gap: existence solved by OpenAI
+- mass gap problem
+    - why is it significant?
+    - why is it true?
+
 ### Understanding the world
 
 - "world": a self-contained *system*
@@ -42,6 +57,7 @@
         - **relevant** variables: $Y$
         - **irrelevant** variables: $Y'$
     - depends on the context!
+    - dynamics: describes the time evolution of the relevant quantities $\to \mathcal D_\mathcal C$
 
 - **nested contexts** 
     - define (partial) ordering among contexts $\mathcal C\succ \mathcal C'$ $\to$ more detailed (finer) context ($\mathcal C$) can explain all the target variables of the less detailed (coarser) one ($\mathcal C'$)
@@ -49,6 +65,7 @@
     - examples
         - clockwork: knowing the parts and the construction rules we can understand the working of the clockwork
         - atom: knowing the ingredients and the underlying dynamics (QM) we can explain the properties of the atom
+    - Renormalization Group: how should we construct the time evolution in $\mathcal C'$ 
 
 - consequence: **analytic thinking**
     - state variables are the microscopic degrees of freedom, the others are dervied quantities
