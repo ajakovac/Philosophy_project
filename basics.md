@@ -73,6 +73,17 @@
     - all other observables are derived quantities!
     - seems to be a complete description $\to$ leads to complete understanding of the world
 
+- how complicated is the TOE, if the context is the IR world?
+    - in principle: all quantum field components $\Rightarrow$ infinite degrees of freedom
+    - but: HUGE symmetry $\to$ degrees of freedom is a **finite number**
+    - technical treatment: **path integral**
+        - IR obervables are drawn up as function(al)s of the microscopic (field) variables $\Phi$
+        - average over all microscopic configurations with some weights: $w(\Phi) \sim e^{-S(\Phi)}$
+        - constraints are taken into account as parametric weights
+        - degrees of freedom $\to$ number of independent parameters in the weights
+    - only a finite number of terms in $S(\Phi)$ can survive the continuum limit (when the microscopic scale $\to0$)
+        - meaning: the world is finite dimensional! $\to$ according to the SM: about 21 parameters + gravity
+    - 
 
 - **the path integral method**
     - important observations: IR physics
